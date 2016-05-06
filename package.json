@@ -10,6 +10,7 @@
   "license": "ISC",
   "devDependencies": {
     "css-loader": "^0.23.1",
+    "postcss-import": "^8.1.1",
     "postcss-loader": "^0.9.1",
     "postcss-mixins": "^4.0.1",
     "postcss-nested": "^1.0.0",

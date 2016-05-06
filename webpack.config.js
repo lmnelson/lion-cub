@@ -2,6 +2,7 @@ var nesting       = require('postcss-nested');
 var variables     = require('postcss-simple-vars');
 var mixins        = require('postcss-mixins');
 var autoprefixer  = require('autoprefixer');
+var postcssImport = require('postcss-import');
 
 module.exports = {
   entry: "./index.js",
@@ -14,7 +15,14 @@ module.exports = {
       { test: /\.pcss$/, loader: "style-loader!css-loader!postcss-loader" }
     ]
   },
-  postcss: function () {
-    return [mixins, variables, nesting, autoprefixer]
-  },
+  postcss: function (webpack) {
+    return [
+            postcssImport({
+              addDependencyTo: webpack
+            }),
+            mixins,
+            variables,
+            nesting,
+            autoprefixer]
+  }
 };

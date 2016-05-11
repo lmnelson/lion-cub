@@ -1,0 +1,36 @@
+~colors:        "./constants.js";
+~fontFamilies:  "./constants.js";
+~fontSizes:     "./constants.js";
+
+html {
+  font-size: ~fontSizes.base;
+  font-size: 16px;
+}
+body {
+  font-family: ~fontFamilies.sansSerif;
+  color: ~colors.primary;
+}
+
+h1 { font-size: ~fontSizes.h1 }
+h2 { font-size: ~fontSizes.h2 }
+h3 { font-size: ~fontSizes.h3 }
+h4 { font-size: ~fontSizes.h4 }
+h5 { font-size: ~fontSizes.h5 }
+h6 { font-size: ~fontSizes.h6 }
+
+a {
+  text-decoration: none;
+}
+p {
+  font-size: 15px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+hr {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height: 1px;
+  border: none;
+  background-color: #666;
+}

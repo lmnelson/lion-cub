@@ -1,1 +1,1 @@
-require("./stylesheets/application.pcss");
+require("./stylesheets/styles.pcss");

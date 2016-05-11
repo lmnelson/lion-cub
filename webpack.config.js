@@ -3,6 +3,8 @@ var variables     = require('postcss-simple-vars');
 var mixins        = require('postcss-mixins');
 var autoprefixer  = require('autoprefixer');
 var postcssImport = require('postcss-import');
+var constants     = require('postcss-constants');
+
 
 module.exports = {
   entry: "./index.js",
@@ -12,17 +14,31 @@ module.exports = {
   },
   module: {
     loaders: [
-      { test: /\.pcss$/, loader: "style-loader!css-loader!postcss-loader" }
+      {
+        test: /\.pcss$/,
+        loader: "style-loader!css-loader!postcss-loader"
+      }
     ]
   },
   postcss: function (webpack) {
     return [
-            postcssImport({
-              addDependencyTo: webpack
-            }),
-            mixins,
-            variables,
-            nesting,
-            autoprefixer]
-  }
+      postcssImport({
+        addDependencyTo: webpack
+      }),
+      constants,
+      mixins,
+      variables,
+      nesting,
+      autoprefixer,
+    ]
+  },
+  watch: true,
+  devtool: 'source-map'
 };
+
+
+
+
+
+
+

@@ -3,7 +3,6 @@ var variables     = require('postcss-simple-vars');
 var mixins        = require('postcss-mixins');
 var autoprefixer  = require('autoprefixer');
 var postcssImport = require('postcss-import');
-var constants     = require('postcss-constants');
 
 
 module.exports = {
@@ -25,20 +24,12 @@ module.exports = {
       postcssImport({
         addDependencyTo: webpack
       }),
-      constants,
-      mixins,
       variables,
+      mixins,
       nesting,
-      autoprefixer,
+      autoprefixer
     ]
   },
   watch: true,
   devtool: 'source-map'
 };
-
-
-
-
-
-
-

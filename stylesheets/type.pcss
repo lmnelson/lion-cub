@@ -1,22 +1,18 @@
-~colors:        "./constants.js";
-~fontFamilies:  "./constants.js";
-~fontSizes:     "./constants.js";
-
 html {
-  font-size: ~fontSizes.base;
+  font-size: $font-size-root;
   font-size: 16px;
 }
 body {
-  font-family: ~fontFamilies.sansSerif;
-  color: ~colors.primary;
+  font-family: $font-family-sans-serif;
+  color: $text-color-base;
 }
 
-h1 { font-size: ~fontSizes.h1 }
-h2 { font-size: ~fontSizes.h2 }
-h3 { font-size: ~fontSizes.h3 }
-h4 { font-size: ~fontSizes.h4 }
-h5 { font-size: ~fontSizes.h5 }
-h6 { font-size: ~fontSizes.h6 }
+h1 { font-size: $font-size-h1 }
+h2 { font-size: $font-size-h2 }
+h3 { font-size: $font-size-h3 }
+h4 { font-size: $font-size-h4 }
+h5 { font-size: $font-size-h5 }
+h6 { font-size: $font-size-h6 }
 
 a {
   text-decoration: none;

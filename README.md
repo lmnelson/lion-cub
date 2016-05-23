@@ -1,0 +1,2 @@
+#Lion Cub
+A simple starting point for projects. Sort of a hybrid of BassCSS and Bootstrap. Includes basic object and component styles (lists, typography, sections, forms, buttons, etc). Leaves out the bloat (Jumbotron, Progress Bars, Wells, etc)

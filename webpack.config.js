@@ -7,7 +7,10 @@ const postcssImport     = require('postcss-import');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
-  entry: "./index.js",
+  entry: {
+    "dist/dist": "./index.js",
+    "docs/docs": "./docs/docs.js"
+  },
   module: {
     loaders: [
       {
@@ -18,6 +21,7 @@ module.exports = {
   },
   output: {
     filename: '[name].js',
+    chunkFilename: "[id].js",
     path: path.join(__dirname, './build'),
     publicPath: '/build'
   },

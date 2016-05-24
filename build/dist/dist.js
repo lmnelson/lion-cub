@@ -54,4 +54,4 @@
 
 /***/ }
 /******/ ]);
-//# sourceMappingURL=main.js.map
+//# sourceMappingURL=dist.js.map

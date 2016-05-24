@@ -1,30 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-     <link rel="stylesheet" href="./build/main.css">
+     <link rel="stylesheet" href="./build/dist/dist.css">
+     <link rel="stylesheet" href="./build/docs/docs.css">
   </head>
   <body>
+    <div class="container">
 
-    <h1>Heading 1</h1>
-    <h2>Heading 2</h2>
-    <h3>Heading 3</h3>
-    <h4>Heading 4</h4>
-    <h5>Heading 5</h5>
-    <h6>Heading 6</h6>
+      <!-- Should maybe think about breaking this into components -->
+      <div class="page-heading">
+        <div class="page-heading-img"></div>
+        <h1>Lion Cub</h1>
+        <p>Lion Cub is a lightweight and modular CSS library to get your next project up and running. It includes resets and basic styles for necessary and commonly used objects to build applications, such as: forms, type, lists, buttons. It leaves out bloated and commonly unused components. To sum things up, Lion Cub is a hybrid of BassCSS and Bootstrap. Lion Cub is also the predecessor to the React component library Lion.</p>
+      </div>
 
-    <a href="#">This is a Link</a>
+      <!-- Typography -->
+      <div class="doc-block">
+        <h1 class="doc-heading">Typography</h1>
+        <div class="doc-examples">
+          <h1>Heading 1</h1>
+          <h2>Heading 2</h2>
+          <h3>Heading 3</h3>
+          <h4>Heading 4</h4>
+          <h5>Heading 5</h5>
+          <h6>Heading 6</h6>
+          <a href="#">This is a Link</a>
+          <p>Hello there. This is a paragraph</p>
+        </div>
+      </div>
 
-    <p>Hello there. This is a paragraph</p>
+      <ul>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+        <li>List item 4</li>
+      </ul>
 
-    <hr>
+      <hr>
 
-    <ul>
-      <li>List item 1</li>
-      <li>List item 2</li>
-      <li>List item 3</li>
-      <li>List item 4</li>
-    </ul>
-
+    </div><!-- /container -->
     <script type="text/javascript" src="./build/main.js" charset="utf-8"></script>
   </body>
 </html>

@@ -4,7 +4,7 @@
   "description": "Simple css objects to get your project up and running ",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server",
+    "start": "webpack-dev-server --progress --colors",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

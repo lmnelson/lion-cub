@@ -9,12 +9,10 @@ Lion Cub will soon be hosted using [NPM CDN](https://npmcdn.com/#/). Compiled CS
 ###NPM
 `npm install https://github.com/lmnelson/lion-cub.git`
 
-Lion Cub comes compiled as `build/dist/dist.css`. Simply add this file to your project and voila.
-
-####Webpack
+#####Webpack
 
 `import lionCub from 'lion-cub/build/dist/dist.css';`
 
-####Static
+#####Static
 
 `<link href="node_modules/build/dist/dist.css">`

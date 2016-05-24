@@ -7,15 +7,13 @@ Lion Cub is a lightweight and modular CSS library to get your next project up an
 Lion Cub will soon be hosted using [NPM CDN](https://npmcdn.com/#/). Compiled CSS file for each module will be available. Check back soon. 
 
 ###NPM
-`npm install https://github.com/lmnelson/lion-cub.git --save-dev`
+`npm install https://github.com/lmnelson/lion-cub.git`
 
 Lion Cub comes compiled as `build/dist/dist.css`. Simply add this file to your project and voila.
 
 ####Webpack
 
 `import lionCub from 'lion-cub/build/dist/dist.css';`
-
-####Sprockets
 
 ####Static
 

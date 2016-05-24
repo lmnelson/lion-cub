@@ -1,5 +1,5 @@
 #Lion Cub
-Lion Cub is a lightweight and modular CSS library to get your next project up and running. It includes resets and basic styles for necessary and commonly used objects to build applications. These include: forms, type, lists, buttons, etc. Lion Cub leaves out bloated and commonly unused components. Lion Cub can be best described as a hybrid of [BassCSS](http://www.basscss.com/) and [Bootstrap](http://getbootstrap.com/). Lion Cub is also the predecessor to the React component library [Lion](https://github.com/BrewhouseTeam/lion).
+Lion Cub is a lightweight and modular CSS library to get your next project up and running. It includes resets and basic styles for necessary and commonly used objects to build applications. The objects included in this CSS library are a result of patterns from client and internal projects at Brewhouse. These include: forms, type, lists, buttons, etc. Lion Cub leaves out bloated and commonly unused components. Lion Cub can be best described as a hybrid of [BassCSS](http://www.basscss.com/) and [Bootstrap](http://getbootstrap.com/). Lion Cub is also the predecessor to the React component library [Lion](https://github.com/BrewhouseTeam/lion).
 
 ##Getting Started
 

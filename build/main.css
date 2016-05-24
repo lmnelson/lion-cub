@@ -1,0 +1,97 @@
+/* Load components */
+/* ==========================================================================
+   Lion Club Defaults
+   ========================================================================== */
+/**
+ * These variables are strictly for the foundation or structure of the
+ * Lion Cub components. The theme should be thought of as an abstraction
+ * of the structure. i.e. There should be no fancy colors included here.
+ * Think of components as a house or room that hasn't been painted. The
+ * paint is the "Theme". Those variable will always be imported last in
+ * application.pcss and will overried existing defaults.
+ */
+/*
+    Structure
+    ========================================================================== */
+/*
+   Typography
+   ========================================================================== */
+/*Pixel value used to responsively scale all typography. Applied to the `<html>` element.*/
+/* ==========================================================================
+   Structure: html, body, attributes, etc.
+   ========================================================================== */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+/*
+   Following styles are courtesy of reboot.css from Bootstrap
+   ========================================================================== */
+/* Make viewport responsive */
+@at-root {
+  @-moz-viewport      { width: device-width; }
+  @-ms-viewport       { width: device-width; }
+  @-o-viewport        { width: device-width; }
+  @-webkit-viewport   { width: device-width; }
+  @viewport           { width: device-width; }
+}
+/**
+ * Suppress the focus outline on elements that cannot be accessed via keyboard.
+ * This prevents an unwanted focus outline from appearing around elements that
+ * might still respond to pointer events.
+ */
+[tabindex="-1"]:focus {
+  outline: none !important;
+}
+/**
+ * Avoid 300ms click delay on touch devices that support the `touch-action`
+ * CSS property.
+ */
+a,
+area,
+button,
+[role="button"],
+input,
+label,
+select,
+summary,
+textarea {
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+}
+html {
+  font-size: 16px;
+  font-size: 16px;
+}
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: blue;
+}
+h1 { font-size: 2.5rem }
+h2 { font-size: 2rem }
+h3 { font-size: 1.75rem }
+h4 { font-size: 1.5rem }
+h5 { font-size: 1.25rem }
+h6 { font-size: 1rem }
+a {
+  text-decoration: none;
+}
+p {
+  font-size: 15px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+hr {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height: 1px;
+  border: none;
+  background-color: #666;
+}
+
+/*# sourceMappingURL=main.css.map*/

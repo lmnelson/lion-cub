@@ -9,7 +9,14 @@ Lion Cub will soon be hosted using [NPM CDN](https://npmcdn.com/#/). Compiled CS
 ###NPM
 `npm install https://github.com/lmnelson/lion-cub.git --save-dev`
 
-Lion Cub comes compiled as `build/dist/dist.css`. Simply add this file to your project and voila. You can also choose to import the source files directly if you are using PostCSS and have all of the correct dependencies. Check the `package.json` file for reference. 
+Lion Cub comes compiled as `build/dist/dist.css`. Simply add this file to your project and voila.
 
-###Rails 
-Lion Cub is currently only available via NPM. Lion Cub will however be backwards compatible with SASS in the future thus making the source files available for Rails.  
+####Webpack
+
+`import lionCub from 'lion-cub/build/dist/dist.css';`
+
+####Sprockets
+
+####Static
+
+`<link href="node_modules/build/dist/dist.css">`
